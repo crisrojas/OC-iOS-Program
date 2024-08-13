@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "RegistryTests.testBeforeAddingAKey_ValueDoesntExists():RegistryTests.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "safeValue">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ExchangeViewController.refetchIfNeeded():ExchangeViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "UserDefaults.standard.value(forKey: .fetchingDate)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ExchangeViewController.formatAndDisplay(rate:):ExchangeViewController+didUpdate.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "UserDefaults.standard.value(forKey: .fetchingDate) as? Date">
+            </PersistentString>
+            <PersistentString
+               value = "UserDefaults.standard.value(forKey: .fetchingDate)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ExchangeViewController.keyboardWillShow(notification:):ExchangeViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "buttonBottomConstraint.constant">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ExchangeViewController.setUserDefaults(rate:):ExchangeViewController+didUpdate.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "UserDefaults.standard.value(forKey: .fetchingDate)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

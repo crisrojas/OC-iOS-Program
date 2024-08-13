@@ -1,0 +1,32 @@
+/* 
+  Localizable.strings
+  Baluchon
+
+  Created by Cristian Rojas on 07/02/2021.
+  
+*/
+
+// MARK: - Generics
+"french" = "French";
+"english" = "English";
+"ok" = "Ok";
+"retry" = "Retry";
+"attention" = "Attention";
+
+// MARK: - Weather
+"weather" = "Weather";
+
+// MARK: - Exchange
+"convert" = "Convert";
+
+// MARK: - Translation
+"translate" = "Translate";
+"translate_input_placeholder" = "Enter your text here!";
+"translate_output_placeholder" = "Press the translation button";
+
+// MARK: - Error
+"error_local_weather" = "Error loading local weather";
+"error_destination_weather" = "Error loading destination weather";
+"error_exchange" = "Error loading exchange rate";
+"error_translation" = "Error loading translation";
+"error_casting_date" = "Couldn't retrieve last date";

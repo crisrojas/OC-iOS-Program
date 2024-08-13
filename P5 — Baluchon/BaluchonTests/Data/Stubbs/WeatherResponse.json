@@ -1,0 +1,44 @@
+{
+   "coord":{
+      "lon":1.5,
+      "lat":48.4167
+   },
+   "weather":[
+      {
+         "id":800,
+         "main":"Clear",
+         "description":"ciel dégagé",
+         "icon":"01d"
+      }
+   ],
+   "base":"stations",
+   "main":{
+      "temp":0.12,
+      "feels_like":-3.54,
+      "temp_min":-0.56,
+      "temp_max":1.11,
+      "pressure":1026,
+      "humidity":94
+   },
+   "visibility":10000,
+   "wind":{
+      "speed":2.24,
+      "deg":333,
+      "gust":5.36
+   },
+   "clouds":{
+      "all":0
+   },
+   "dt":1610276273,
+   "sys":{
+      "type":3,
+      "id":2001998,
+      "country":"FR",
+      "sunrise":1610264594,
+      "sunset":1610295567
+   },
+   "timezone":3600,
+   "id":3026466,
+   "name":"Chartres",
+   "cod":200
+}

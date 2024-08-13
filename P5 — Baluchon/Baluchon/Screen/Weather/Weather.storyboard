@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="s4l-ld-hIm">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Weather-->
+        <scene sceneID="FC8-J4-2bv">
+            <objects>
+                <viewController storyboardIdentifier="WeatherView" id="Au2-DC-GTz" customClass="WeatherViewController" customModule="Baluchon" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vQW-xR-2Vl">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="o5H-gB-GXO">
+                                <rect key="frame" x="16" y="381" width="382" height="416"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SWh-QS-asH" customClass="WeatherItemView" customModule="Baluchon" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="382" height="200"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GM1-JY-EAV" customClass="WeatherItemView" customModule="Baluchon" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="216" width="382" height="200"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kus-lI-wRZ">
+                                <rect key="frame" x="16" y="140" width="41.5" height="217"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="pI1-aT-5Er"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="o5H-gB-GXO" firstAttribute="leading" secondItem="pI1-aT-5Er" secondAttribute="leading" constant="16" id="0vx-cl-nMe"/>
+                            <constraint firstItem="pI1-aT-5Er" firstAttribute="bottom" secondItem="o5H-gB-GXO" secondAttribute="bottom" constant="16" id="4Bh-e9-ABO"/>
+                            <constraint firstItem="pI1-aT-5Er" firstAttribute="trailing" secondItem="o5H-gB-GXO" secondAttribute="trailing" constant="16" id="Vjv-Tc-zI3"/>
+                            <constraint firstItem="Kus-lI-wRZ" firstAttribute="top" secondItem="pI1-aT-5Er" secondAttribute="top" id="WMw-yz-ekn"/>
+                            <constraint firstItem="o5H-gB-GXO" firstAttribute="top" secondItem="Kus-lI-wRZ" secondAttribute="bottom" constant="24" id="esZ-e3-cti"/>
+                            <constraint firstItem="Kus-lI-wRZ" firstAttribute="leading" secondItem="pI1-aT-5Er" secondAttribute="leading" constant="16" id="is5-H1-8Hf"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Weather" image="weatherIcon" id="z5G-OC-clj"/>
+                    <navigationItem key="navigationItem" id="WCU-iE-N3X"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="destinationView" destination="SWh-QS-asH" id="Hqy-7P-Drb"/>
+                        <outlet property="localView" destination="GM1-JY-EAV" id="4rO-Hj-s9v"/>
+                        <outlet property="weatherTitleLabel" destination="Kus-lI-wRZ" id="qq2-2U-LVk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pPk-1v-5f1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="566.66666666666674" y="1185.9375"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="WBd-b5-zHp">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="s4l-ld-hIm" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="3Ld-cb-dpD">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Au2-DC-GTz" kind="relationship" relationship="rootViewController" id="1Is-3j-Jeh"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Sxa-oX-joM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-342.02898550724638" y="1185.9375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="weatherIcon" width="25" height="25"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

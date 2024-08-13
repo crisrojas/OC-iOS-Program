@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BRK-Ex-pLz">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--WeatherView-->
+        <scene sceneID="wV7-uz-BBT">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Weather" referencedIdentifier="WeatherView" id="8pk-YW-uki" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Test" id="Lne-ta-qaX"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cyg-hb-KkK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1013" y="225"/>
+        </scene>
+        <!--ExchangeView-->
+        <scene sceneID="Hik-iG-68g">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Exchange" referencedIdentifier="ExchangeView" id="BcU-IZ-lF3" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" tag="2" title="Exchange" image="exchangeIcon" id="rbw-GZ-ozd"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LYa-ig-x5S" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1006" y="149"/>
+        </scene>
+        <!--TranslationView-->
+        <scene sceneID="9xW-2d-H4t">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Translation" referencedIdentifier="TranslationView" id="be3-QA-pLh" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" id="A5o-HV-TEs"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zJc-tQ-h3a" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1001" y="185"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="OZw-Wh-I2G">
+            <objects>
+                <tabBarController id="BRK-Ex-pLz" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ZfA-De-V9z">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="8pk-YW-uki" kind="relationship" relationship="viewControllers" id="Ri1-GV-ewm"/>
+                        <segue destination="BcU-IZ-lF3" kind="relationship" relationship="viewControllers" id="BNS-W3-zNV"/>
+                        <segue destination="be3-QA-pLh" kind="relationship" relationship="viewControllers" id="qIP-4T-Deq"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="huu-7w-WOx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1584" y="238"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="exchangeIcon" width="25" height="25"/>
+    </resources>
+</document>

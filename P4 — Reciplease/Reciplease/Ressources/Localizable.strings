@@ -1,0 +1,94 @@
+/* 
+  Localizable.strings
+  Reciplease
+
+  Created by Cristian Felipe Patiño Rojas on 27/03/2021.
+  
+*/
+
+// MARK: - Generics
+"search" = "Search";
+"attention" = "Attention";
+"ok" = "Ok";
+"done" = "Done";
+
+// MARK: - Search
+"search_heading" = "What's in my fridge?";
+"search_subheading" = "Discover and find recipes with the ingredients you have at hand :)";
+"search_placeholder" = "Lemon, cheese, sausages...";
+"search_ingredient_list" = "Ingredient list";
+"search_clear_all" = "Clear all";
+
+// MARK: - Errors
+"errorUnknown" = "Unknown Error";
+"errorNetwork" = "There wasn an error while fetching the data";
+"errorEmptyIngredients" = "You have to give us at least one ingredient!";
+"errorIngredientExists" = "Ingredient is alredy on the list :)";
+"error_adding_to_favorites" = "There was an error while trying to add the recipe to favorites";
+// MARK: - Details
+"get_directions" = "Get directions";
+
+
+
+// MARK: - Others
+"favorites" = "Favorites";
+"no_favorites_yet" = "No favorites yet";
+"results" = "Results";
+"no_results_found" = "No results found";
+"how_to_favorites" = "Go to the search tab and start adding recipes by tapping the ♥️ button";
+
+// MARK: - Ingredients
+"Chicken" = "Chicken";
+"Tomato" = "Tomato";
+"Grappes" = "Grappes";
+"Melon" = "Melon";
+"Watermelon" = "Watermelon";
+"Tangerine" = "Tangerine";
+"Lemon" = "Lemon";
+"Banana" = "Banana";
+"Pineapple" = "Pineapple";
+"Mango" = "Mango";
+"Apple" = "Apple";
+"Pear" = "Pear";
+"Peach" = "Peach";
+"Cherries" = "Cherries";
+"Strawberry" = "Strawberry";
+"Kiwi" = "Kiwi";
+"Coconut" = "Coconut";
+"Avocado" = "Avocado";
+"Eggplant" = "Eggplant";
+"Potato" = "Potato";
+"Carrot" = "Carrot";
+"Corn" = "Corn";
+"HotPepper" = "HotPepper";
+"Cucumber" = "Cucumber";
+"LeafyGreen" = "LeafyGreen";
+"Broccoli" = "Broccoli";
+"Garlic" = "Garlic";
+"Onion" = "Onion";
+"Mushroom" = "Mushroom";
+"Peanuts" = "Peanuts";
+"Chestnut" = "Chestnut";
+"Bread" = "Bread";
+"Cheese" = "Cheese";
+"Beef" = "Beef";
+"Bacon" = "Bacon";
+"Taco" = "Taco";
+"Burrito" = "Burrito";
+"Egg" = "Egg";
+"Salad" = "Salad";
+"Butter" = "Butter";
+"Salt" = "Salt";
+"Rice" = "Rice";
+"Pasta" = "Pasta";
+"Shrimp" = "Shrimp";
+"Oyster" = "Oyster";
+"IceCream" = "IceCream";
+"Chocolate" = "Chocolate";
+"Honey" = "Honey";
+"Milk" = "Milk";
+"Coffee" = "Coffee";
+"Tea" = "Tea";
+"Sake" = "Sake";
+"Wine" = "Wine";
+"Beer" = "Beer";
